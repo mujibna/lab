@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color:blue;
+        }
+        .stopwatch{
+            background-color: aqua;
+            padding:20px;
+            width: 350px;
+            text-align:center;
+        }
+        .ehleh{
+            color:white;
+            background-color: blue;
+        }
+        .zogsoh{
+            color:white;
+            background-color:green;
+        }
+        .res{
+            color:white;
+            background-color:red;
+        }
+        .lapa{
+            color:white;
+            background-color: brown;
+        }
+        ol{
+            height:200px;
+            overflow-y: scroll;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="stopwatch">
+        <h1>00:00:00:00</h1>
+        <button onclick="start()" class="ehleh">start</button>
+        <button onclick="stop()" class="zogsoh">stop</button>
+        <button onclick="restart()" class="res">restart</button>
+        <button onclick="lap()" class="lapa">lap</button>
+        <ol>
+
+        </ol>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
